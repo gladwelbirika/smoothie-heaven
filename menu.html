@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav class="navbar">
+        <div class="nav-container">
+<a href="index.html">
+            <img src="logo.png" class="logo" alt="Smoothie Heaven logo">
+</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+              <li><a href="menu.html">Menu</a></li>
+        </ul>
+        <div class="cart">
+            🛒<span id="cart-count">0</span>
+        </div>
+    </div>
+
+    </nav>
+    <h1>MENU</h1>
+    <h2>FRUIT SMOOTHIES</h2>
+    
+<div class="menu-section">
+
+
+ 
+        <div class ="card">
+            <h3>Pineapple smoothie</h3>
+            <img src="https://i.pinimg.com/1200x/28/43/23/284323403730bd38aa192ecf68fd270d.jpg" alt="pineapple smoothie">
+           
+            <p>Fresh tropical pineapple with a creamy twist😍</p>
+            <button class="price-btn">ksh.425</button>
+            
+            </div>
+
+
+            <div class ="card">
+                <h3>Strawberry banana</h3>
+            <img src="https://i.pinimg.com/736x/5c/26/fd/5c26fd706adacc931656181338272e70.jpg" alt="strawberry banana smoothie">
+            <p>Sweet strawberry & creamy banana blend🤩</p>
+            <button class="price-btn">ksh.450</button>
+            
+            </div>
+           
+  
+            <div class ="card">
+                <h3>Mango pineapple</h3>
+            <img src="https://i.pinimg.com/736x/13/96/ef/1396ef010c9242e69361ad8372c5a02f.jpg" alt="mango pineapple smoothie ">
+        
+         <p>Juicy mango meets tropical pineapple delight🤫</p>
+         <button class="price-btn">ksh.500</button>
+            
+        </div>
+
+</div>
+
+        <h2>PROTEIN SMOOTHIES</h2>
+
+        <div class="menu-section">
+
+            
+            <div class ="card">
+                <h3>Peanut butter Power</h3>
+            <img src="https://i.pinimg.com/1200x/d3/67/b3/d367b3e37219433a9c92de2c3d1c08ef.jpg" alt="peanut butter smoothie">
+            <p>Rich peanut butter energy boost💥</p>
+            <button class="price-btn">ksh.550</button>
+          
+        </div>
+        
+        
+            <div class ="card">
+                <h3>Oat Almond Energizer</h3>
+            <img src="https://i.pinimg.com/1200x/6f/a1/4c/6fa14ce738b3db0d08a02cf8f6c846c2.jpg" alt="oat almond smoothie">
+            <p>Smooth oats & almond for lasting energy❤️‍🔥</p>
+            <button class="price-btn">ksh.615</button>
+            
+        </div>
+
+        
+            <div class ="card">
+                <h3>Vanilla Bean Strength</h3>
+            <img src="https://i.pinimg.com/1200x/ce/76/a1/ce76a1ab961d78f090f02fe1bed86b8c.jpg" alt="vanilla bean smoothie">
+            <p>Creamy vanilla protein goodness🙀</p>
+            <button class="price-btn">ksh.675</button>
+           
+        </div>
+    </div>
+        <h2>DETOX SMOOTHIES</h2>
+
+        <div class="menu-section">
+
+            
+            <div class ="card">
+                <h3>Morning Detox Green</h3>
+            <img src="https://i.pinimg.com/736x/0d/d2/3b/0dd23b7802615361ecaba84b288dbc41.jpg" alt="morning detox green smoothie">
+            <p>Fresh greens to cleanse & refresh your body💚</p>
+            <button class ="price-btn">ksh.690</button>
+            
+            </div>
+
+             
+            <div class ="card">
+                <h3>Creamy Energy Boost</h3>
+            <img src="https://i.pinimg.com/736x/86/d3/77/86d377eba74b727fd9dd491bf4bac6cc.jpg" alt="creamy green smoothie">
+            <p>Smooth, creamy fuel packed with natural goodness😋</p>
+            <button class="price-btn">ksh.700</button>
+           
+            </div>
+
+
+            <div class ="card">
+                 <h3>Tropical Gut Cleanse</h3>
+            <img src="https://i.pinimg.com/736x/0f/0d/96/0f0d96b68ff4aff3b476dbe88408b078.jpg" alt="tropical gut cleanse smoothie">
+            <p>Light tropical blend to support digestion & glow🙂‍↔️</p>
+            <button class ="price-btn">ksh.770</button>
+           
+            </div>
+        </div>
+      <script>
+        let count = 0;
+        function addToCart({
+            count++;
+            document.getElementById("cart-count").innerText = count;
+        })
+      </script>       
+</body>
+</html>
